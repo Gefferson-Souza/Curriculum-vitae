@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav'
+import ToggleButton from 'react-bootstrap/ToggleButton';
+import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import foto from './assets/foto.png';
 import './index.css'
 import house from './assets/contact/Vector.svg'
@@ -22,18 +24,34 @@ import bootstrap from './assets/tech/bootstrap-svgrepo-com.svg'
 import brazil from './assets/languages/flag-for-brazil-svgrepo-com.svg'
 import usa from './assets/languages/united-states-of-america-united-states-svgrepo-com.svg'
 import japan from './assets/languages/japan-svgrepo-com.svg'
-import langBrazil from './assets/languages/flag-for-brazil-svgrepo-com.svg'
+import langBrazil from './assets/languages/brazil-svgrepo-com.svg'
 import langUsa from './assets/languages/flag-us-svgrepo-com.svg'
 import personal from './assets/descrition/personal.svg'
 import suitcase from './assets/descrition/suitcase.svg'
 import education from './assets/descrition/education.svg'
 
+
 function App() {
+
+  const [buttonValue, setButtonValue] = useState(1)
+
+  console.log('button', buttonValue)
+
 
   return (
     <Container fluid='sm' className=''>
       <Row >
         <Col sm={6} className='abc'>
+          <div>
+            <ToggleButtonGroup type="radio" name="options" value={buttonValue} onChange={(value) => setButtonValue(value)} >
+              <ToggleButton value={1} variant='light' id='tbn-bra'>
+                <img src={langBrazil} className='btn-icons' alt="lang" />
+              </ToggleButton>
+              <ToggleButton value={2} variant='light' id='tbn-usa'>
+                <img src={langUsa} className='btn-icons' alt="lang" />
+              </ToggleButton>
+            </ToggleButtonGroup>
+          </div>
           <div className='personal-info'>
             <img alt='PHOTO' className='foto' src={foto} />
             <h1 className=''>Gefferson T. Souza</h1>
@@ -70,21 +88,22 @@ function App() {
               </div>
               <div className=''>
                 <h6 className='title '>LANGUAGES</h6>
-                <p className='px-2 descricao'><img alt='icon' className='icons' src={brazil} /> Portuguese - Nativo</p>
+                <p className='px-2 descricao'><img alt='icon' className='icons' src={brazil} /> Portuguese - Native</p>
                 <p className='px-2 descricao'><img alt='icon' className='icons' src={usa} /> English - Advanced</p>
                 <p className='px-2 descricao' ><img alt='icon' className='icons' src={japan} /> Japanese - Basic</p>
+              </div>
+              <div className=''>
+                <h6 className='title '>HOBBIES</h6>
+                <p className='px-2 descricao'> Family - Music - Astronomy </p>
+                <p className='px-2 descricao'> Chess - Cook - Read</p>
               </div>
             </div>
           </div>
         </Col>
         <Col sm={6} className='abc'>
           <div className='information'>
-            <div>
-              <button><img src={langBrazil} className='icons' alt="lang" /></button>
-              <button><img src={langUsa} className='icons' alt="lang" /></button>
-            </div>
-            <div className='about-me'>
-              <h4 className=''><img src={personal} className='icons'alt="icon" /> ABOUT ME</h4>
+            <div className='about-me pt-2'>
+              <h4 className='bolder'><img src={personal} className='icons' alt="icon" /> ABOUT ME</h4>
               <hr />
               <p>
                 I'm a full-stack developer with experience building
@@ -108,19 +127,95 @@ function App() {
               </p>
             </div>
 
-            <div className='education'>
-            <h4 className=''><img src={education} className='icons'alt="icon" /> EDUCATION</h4>
+            <div className='education pt-3'>
+              <h4 className='bolder'><img src={education} className='icons' alt="icon" /> EDUCATION / CERTIFICATIONS</h4>
               <hr />
-              <div className='title-education'>
-                <h6>faculdade</h6> <p>Jan 2020 - Dez 2022</p>
+              <div className='edu-exp'>
+                <h5 className='weight'>Universidade Católica de Brasília</h5><h6>Jan 2023 - Studying</h6>
               </div>
+              <strong>Course: </strong><span>Análise e Desenvolvimento de Sistemas</span>
+              <br />
+              <small>University graduation</small>
+              <div className='edu-exp pt-4'>
+                <h5>University of Helsinki</h5><h6>Jan 2023 - In Progress</h6>
+              </div>
+              <a href='https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/529f6c3b03c2728311f0f5a5260adda4'>
+                <strong>Course: </strong>
+                <span>Full Stack Web Development (5 cr, CSM141081)</span>
+              </a>
+              <div className='edu-exp pt-4'>
+                <h5>Duke University</h5><h6>Finished Dec 2022</h6>
+              </div>
+              <a href='https://coursera.org/share/0c1833adba55c6bf231f6181c6b93f06'>
+                <strong>Course: </strong>
+                <span>Programming Foundations with JavaScript, HTML and CSS</span>
+              </a>
+              <div className='edu-exp pt-4'>
+                <h5>Duke University</h5><h6>Finished Dec 2022</h6>
+              </div>
+              <a href='https://coursera.org/share/76183885ec9fd727b9d69bbc73a70304'>
+                <strong>Course: </strong>
+                <span>Java Programming: Arrays, Lists, and Structured Data</span>
+              </a>
+              <div className='edu-exp pt-4'>
+                <h5>Duke University</h5><h6>Finished Dec 2022</h6>
+              </div>
+              <a href='https://coursera.org/share/927e1f1c8ff6d456711726dbda56f26d'>
+                <strong>Course: </strong>
+                <span>Java Programming: Solving Problems with Software</span>
+              </a>
+              <div className='edu-exp pt-4'>
+                <h5>Duke University</h5><h6>Finished Dec 2022</h6>
+              </div>
+              <a href='https://coursera.org/share/43ce41c4b9d15e660aacff13fc4d2eca'>
+                <strong>Course: </strong>
+                <span>Java Programming: Principles of Software Design</span>
+              </a>
             </div>
-
-            <div className='experience'>
-            <h4 className=''><img src={suitcase} className='icons'alt="icon" /> EXPERIENCE</h4>
+            <div className='experience pt-4'>
+              <h4 className='bolder'><img src={suitcase} className='icons' alt="icon" /> EXPERIENCE / PROJECTS</h4>
               <hr />
-              <div className='title-education'>
-                <h6>trabalho</h6> <p>Jan 2020 - Dez 2022</p>
+              <div className='edu-exp pt-2'>
+                <h4><strong>Full-Stack Projects</strong></h4>
+              </div>
+              <div className='project'>
+                <strong>Countries information and their current weather</strong>
+                <br />
+                <a href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
+                <br />
+                <small>Note: The project was deployed on the Internet. Access link can be found at README.md</small>
+              </div>
+              <div className='project pt-3'>
+                <strong>Notes app, CRUD, API REST. The user can Create, Edit, Delete, Read the Notes</strong>
+                <br />
+                <a href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
+                <br />
+                <small>Note: The project was deployed on the Internet. Access link can be found at README.md</small>
+                <br />
+                <small>Note: The back-end is finished, i'm working in the front-end</small>
+              </div>
+              <div className='project pt-3'>
+                <strong>Blog list API, the user can publish new Blogs and see other blogs author, title, likes and url </strong>
+                <br />
+                <a href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
+                <br />
+                <small>Note: The back-end is finished, i'm working in the front-end</small>
+              </div>
+              <div className='edu-exp pt-4'>
+                <h4><strong>React projects</strong></h4>
+              </div>
+              <div className='project'>
+                <strong>Some finished projects</strong>
+                <br />
+                <a href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
+                <br/>
+                <small>Note: All projects were deployed on the Internet. Access link can be found on README.md</small>
+              </div>
+              <div className=' pt-4 pb-4'>
+                <h4><strong>Bootstrap projects</strong></h4>
+                <a href='https://github.com/Gefferson-Souza/BootStrap-projects'>https://github.com/Gefferson-Souza/BootStrap-projects</a>
+                <br />
+                <small>Note: All projects were deployed on the Internet. Access link can be found on README.md</small>
               </div>
             </div>
           </div>
