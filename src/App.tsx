@@ -41,7 +41,7 @@ function App() {
   return (
     <Container fluid='sm' className=''>
       <Row >
-        <Col sm={6} className='abc'>
+        <Col sm={6} className='background-light'>
           <div>
             <ToggleButtonGroup type="radio" name="options" value={buttonValue} onChange={(value) => setButtonValue(value)} >
               <ToggleButton value={1} variant='light' id='tbn-bra'>
@@ -53,55 +53,54 @@ function App() {
             </ToggleButtonGroup>
             {
               buttonValue === 1 ?
-              <div className='personal-info'>
-              <img alt='PHOTO' className='foto' src={foto} />
-              <h1 className=''>Gefferson T. Souza</h1>
-              <hr className='line' />
-              <p>
-                Desenvolvedor FULL-STACK
-              </p>
-              <div className='contact background'>
-                <div className=''>
-                  <h6 className='title'>CONTATO</h6>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={house} />Goiânia, Goiás, Brazil</p>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={tel} /><a href='tel:5562994357455'>55(62)9 9435-7455</a></p>
-                  <p className='px-2 descricao' ><img alt='icon' className='no-svg-icons' src={email} />geffersonteodorodesouza@gmail.com</p>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={site} />Goiânia, Goiás, Brazil</p>
-                  <hr />
+                <div className='personal-info'>
+                  <img alt='PHOTO' className='foto' src={foto} />
+                  <h1 className=''>Gefferson T. Souza</h1>
+                  <hr className='line' />
+                  <p>
+                    Desenvolvedor FULL-STACK
+                  </p>
+                  <div className='contact background'>
+                    <div className=''>
+                      <h6 className='title'>CONTATO</h6>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={house} />Goiânia, Goiás, Brazil</p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={tel} /><a href='tel:5562994357455'>55(62)9 9435-7455</a></p>
+                      <p className='px-2 descricao' ><img alt='icon' className='no-svg-icons' src={email} />geffersonteodorodesouza@gmail.com</p>
+                      <hr />
+                    </div>
+                    <div className='follow-me'>
+                      <h6 className='title'>REDES SOCIAIS</h6>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a href='https://wa.me/5562994357455'>55(62)9 9435-7455</a></p>
+                      <hr />
+                    </div>
+                    <div className='bolder'>
+                      <h6 className='title '>HABILIDADES</h6>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={javascript} /> JavaScript</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={typescript} /> TypeScript</p>
+                      <p className='px-2 descricao' ><img alt='icon' className='icons' src={node} /> Node</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={mongo} /> MongoDB</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={html} /> HTML / CSS <img alt='icon' className='icons' src={css} /></p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={react} /> React</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={jest} /> Jest tester</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={bootstrap} /> Bootstrap</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={java} /> Java</p>
+                      <hr />
+                    </div>
+                    <div className=''>
+                      <h6 className='title '>LINGUAS</h6>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={brazil} /> Português - Nativo</p>
+                      <p className='px-2 descricao'><img alt='icon' className='icons' src={usa} /> Inglês - Avançado</p>
+                      <p className='px-2 descricao' ><img alt='icon' className='icons' src={japan} /> Japonês - Básico</p>
+                    </div>
+                    <div className=''>
+                      <h6 className='title '>HOBBIES</h6>
+                      <p className='px-2 descricao'> Família - Música - Astronomia </p>
+                      <p className='px-2 descricao'> Xadrez - Cozinhar - Ler </p>
+                    </div>
+                  </div>
                 </div>
-                <div className='follow-me'>
-                  <h6 className='title'>REDES SOCIAIS</h6>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
-                  <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a href='https://wa.me/5562994357455'>55(62)9 9435-7455</a></p>
-                  <hr />
-                </div>
-                <div className='bolder'>
-                  <h6 className='title '>HABILIDADES</h6>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={javascript} /> JavaScript</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={typescript} /> TypeScript</p>
-                  <p className='px-2 descricao' ><img alt='icon' className='icons' src={node} /> Node</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={mongo} /> MongoDB</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={html} /> HTML / CSS <img alt='icon' className='icons' src={css} /></p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={react} /> React</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={jest} /> Jest tester</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={bootstrap} /> Bootstrap</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={java} /> Java</p>
-                  <hr />
-                </div>
-                <div className=''>
-                  <h6 className='title '>LINGUAS</h6>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={brazil} /> Português - Nativo</p>
-                  <p className='px-2 descricao'><img alt='icon' className='icons' src={usa} /> Inglês - Avançado</p>
-                  <p className='px-2 descricao' ><img alt='icon' className='icons' src={japan} /> Japonês - Básico</p>
-                </div>
-                <div className=''>
-                  <h6 className='title '>HOBBIES</h6>
-                  <p className='px-2 descricao'> Familía - Música - Asronomia </p>
-                  <p className='px-2 descricao'> Xadrez - Cozinhar - Ler </p>
-                </div>
-              </div>
-            </div>
                 :
                 <div className='personal-info'>
                   <img alt='PHOTO' className='foto' src={foto} />
@@ -116,7 +115,6 @@ function App() {
                       <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={house} />Goiânia, Goiás, Brazil</p>
                       <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={tel} /><a href='tel:5562994357455'>55(62)9 9435-7455</a></p>
                       <p className='px-2 descricao' ><img alt='icon' className='no-svg-icons' src={email} />geffersonteodorodesouza@gmail.com</p>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={site} />Goiânia, Goiás, Brazil</p>
                       <hr />
                     </div>
                     <div className='follow-me'>
@@ -157,33 +155,31 @@ function App() {
         </Col>
         {
           buttonValue === 1 ?
-            <Col sm={6} className='abc'>
+            <Col sm={6} className='background-light'>
               <div className='information'>
                 <div className='about-me pt-2'>
                   <h4 className='bolder'><img src={personal} className='icons' alt="icon" /> SOBRE MIM</h4>
                   <hr />
                   <p>
-                    Sou um desenvolvedor Full-Stack com experiência em construção de
-                    aplicações web usando tecnologias modernas e metodologias
-                    ágeis.
-                    Durante minha trajetória profissional, tive a oportunidade de
-                    trabalho em projetos desafiadores, onde pude aprender muito e
-                    aplicar meus conhecimentos de forma prática. Além disso, eu sou um
-                    profissional proativo, comunicativo e sempre em busca de estar atualizado
-                    com novidades do mercado.
-                    Minhas principais realizações incluem o desenvolvimento de
-                    aplicativos da web que melhoraram a eficiência e a experiência
-                    do usuário. Estou empenhado em continuar a crescer e aprender.
-                    mais e mais.
-                    A minha ambição é participar de projetos de alta complexidade e desenvolver
-                    soluções inovadoras. Estou sempre em busca de novos desafios e
-                    oportunidades para expandir minhas habilidades e conhecimentos,
-                    para se tornar um profissional ainda mais qualificado e valorizado
-                    no mercado.
+                    Sou um desenvolvedor Full-Stack com experiência em construção de aplicações web
+                    usando tecnologias modernas e metodologias ágeis.
+                  </p>
+                  <p>
+                    Durante minha trajetória profissional, tive a oportunidade de trabalho em projetos desafiadores,
+                    onde pude aprender muito e aplicar meus conhecimentos de forma prática.
+                  </p>
+                  <p>
+                    Além disso, sou um profissional proativo, tenho excelente capacidade de organização e gerenciamento de tempo,
+                    o que sempre me favorece no cumprimento de prazos e metas estabelecidas.
+                  </p>
+                  <p>
+                    O meu objetivo é participar de projetos de alta complexidade e desenvolver soluções inovadoras.
+                    Estou sempre em busca de novos desafios e oportunidades para expandir minhas habilidades e conhecimentos,
+                    para me tornar um profissional ainda mais qualificado e valorizado no mercado.
                   </p>
                 </div>
-                <div className='education pt-3'>
-                  <h4 className='bolder'><img src={education} className='icons' alt="icon" /> FORMAÇÃO ACADÉMICA / CERTIFICAÇÕES</h4>
+                <div className='education pt-1'>
+                  <h4 className='bolder'><img src={education} className='icons' alt="icon" /> FORMAÇÃO ACADÊMICA / CERTIFICAÇÕES</h4>
                   <hr />
                   <div className='edu-exp'>
                     <h5 className='weight'>Universidade Católica de Brasília</h5><h6>Jan 2023 - Estudando</h6>
@@ -276,32 +272,30 @@ function App() {
               </div>
             </Col>
             :
-            <Col sm={6} className='abc'>
+            <Col sm={6} className='background-light'>
               <div className='information'>
                 <div className='about-me pt-2'>
                   <h4 className='bolder'><img src={personal} className='icons' alt="icon" /> ABOUT ME</h4>
                   <hr />
                   <p>
-                    I am a Full-Stack developer with experience in building
-                    web applications using modern technologies and methodologies
-                    Agile.
-                    During my professional career, I had the opportunity to
-                    work on challenging projects where I could learn a lot and
-                    apply my knowledge in a practical way. Also, I'm a
-                    proactive, communicative professional and always in search of being up to date
-                    with market news.
-                    My main achievements include the development of
-                    web applications that have improved efficiency and experience
-                    of the user. I am committed to continuing to grow and learn.
-                    more and more.
-                    My ambition is to participate in projects of high complexity and develop
-                    innovative solutions. I am always looking for new challenges and
-                    opportunities to expand my skills and knowledge,
-                    to become an even more qualified and valued professional.
+                    I'm a Full-Stack developer with experience building web applications using modern technologies and agile methodologies.
+                  </p>
+                  <p>
+                    During my professional career, I had the opportunity to work on challenging projects,
+                    where I was able to learn a lot and apply my knowledge in a practical way.
+                  </p>
+                  <p>
+                    In addition, I am a proactive professional, I have excellent organization and time management skills,
+                    which always favors me in meeting deadlines and established goals.
+                  </p>
+                  <p>
+                    My goal is to participate in highly complex projects and develop innovative solutions.
+                    I am always looking for new challenges and opportunities to expand my skills and knowledge,
+                    to become an even more qualified and valued professional in the market.
                   </p>
                 </div>
 
-                <div className='education pt-3'>
+                <div className='education pt-1'>
                   <h4 className='bolder'><img src={education} className='icons' alt="icon" /> EDUCATION / CERTIFICATIONS</h4>
                   <hr />
                   <div className='edu-exp'>
@@ -346,7 +340,7 @@ function App() {
                     <span>Java Programming: Principles of Software Design</span>
                   </a>
                 </div>
-                <div className='experience pt-4'>
+                <div className='experience pt-3'>
                   <h4 className='bolder'><img src={suitcase} className='icons' alt="icon" /> EXPERIENCE / PROJECTS</h4>
                   <hr />
                   <div className='edu-exp pt-2'>

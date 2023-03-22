@@ -6,13 +6,25 @@
   background-color: rgb(56, 56, 61);
 }
 
-.abc{
+.background-light{
   background-color:white;
 }
 
-.nav{
-  background-color: #424242;
+.background {
+  background-color: #a3a3a3;
 }
+
+.title{
+  background-color: #424242;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  margin-left: 20%;
+}
+
 
 .bolder {
   font-weight: bolder;
@@ -41,22 +53,6 @@
   width: 90%;
   height: auto;
 }
-
-.background {
-  background-color: #a3a3a3;
-}
-
-.title{
-  background-color: #424242;
-  font-weight: 700;
-  color: white;
-  display: flex;
-  justify-content: center;
-  max-width: 60%;
-  height: auto;
-  margin-left: 20%;
-}
-
 
 
 .no-svg-icons{
