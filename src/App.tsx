@@ -10,9 +10,8 @@ import house from './assets/contact/Vector.svg'
 import tel from './assets/contact/1.svg'
 import whatsapp from './assets/follow/social-whats-app-svgrepo-com.svg'
 import email from './assets/contact/2.svg'
-import site from './assets/contact/3.svg'
 import github from './assets/follow/GitHub.svg'
-import linkedin from './assets/follow/Linkedin.svg'
+import linkedin from './assets/follow/linkedin-svgrepo-com.svg'
 import javascript from './assets/tech/javascript-svgrepo-com.svg'
 import typescript from './assets/tech/typescript-official-svgrepo-com.svg'
 import node from './assets/tech/node-svgrepo-com.svg'
@@ -70,9 +69,9 @@ function App() {
                     </div>
                     <div className='follow-me'>
                       <h6 className='title'>REDES SOCIAIS</h6>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a href='https://wa.me/5562994357455'>55(62)9 9435-7455</a></p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a target="_blank" rel="noopener noreferrer" href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a target="_blank" rel="noopener noreferrer" href='https://wa.me/5562994357455'>WhatsApp</a></p>
                       <hr />
                     </div>
                     <div className='bolder'>
@@ -119,9 +118,9 @@ function App() {
                     </div>
                     <div className='follow-me'>
                       <h6 className='title'>SOCIAL MEDIA</h6>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a href='https://wa.me/5562994357455'>55(62)9 9435-7455</a></p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={github} /><a target="_blank" rel="noopener noreferrer" href="https://github.com/Gefferson-Souza">https://github.com/Gefferson-Souza</a> </p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={linkedin} /><a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269/'>https://www.linkedin.com/in/geff...</a></p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a target="_blank" rel="noopener noreferrer" href='https://wa.me/5562994357455'>WhatsApp</a></p>
                       <hr />
                     </div>
                     <div className='bolder'>
@@ -190,35 +189,35 @@ function App() {
                   <div className='edu-exp pt-4'>
                     <h5>University of Helsinki</h5><h6>Jan 2023 - Estudando</h6>
                   </div>
-                  <a href='https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/529f6c3b03c2728311f0f5a5260adda4'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/529f6c3b03c2728311f0f5a5260adda4'>
                     <strong>Curso: </strong>
                     <span>Full Stack Web Development (5 cr, CSM141081)</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Dez 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/0c1833adba55c6bf231f6181c6b93f06'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/0c1833adba55c6bf231f6181c6b93f06'>
                     <strong>Curso: </strong>
                     <span>Programming Foundations with JavaScript, HTML and CSS</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Dez 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/76183885ec9fd727b9d69bbc73a70304'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/76183885ec9fd727b9d69bbc73a70304'>
                     <strong>Curso: </strong>
                     <span>Java Programming: Arrays, Lists, and Structured Data</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Dez 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/927e1f1c8ff6d456711726dbda56f26d'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/927e1f1c8ff6d456711726dbda56f26d'>
                     <strong>Curso: </strong>
                     <span>Java Programming: Solving Problems with Software</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Dez 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/43ce41c4b9d15e660aacff13fc4d2eca'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/43ce41c4b9d15e660aacff13fc4d2eca'>
                     <strong>Curso: </strong>
                     <span>Java Programming: Principles of Software Design</span>
                   </a>
@@ -232,14 +231,14 @@ function App() {
                   <div className='project'>
                     <strong>Informações sobre os países e seu clima atual</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
                     <br />
                     <small>Nota: O projeto foi implantado na Internet. O link de acesso pode ser encontrado no README.md</small>
                   </div>
                   <div className='project pt-3'>
                     <strong>Aplicativo de notas, CRUD, API REST. O usuário pode Criar, Editar, Excluir, Ler as Notas</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
                     <br />
                     <small>Nota: O projeto foi implantado na Internet. O link de acesso pode ser encontrado no README.md</small>
                     <br />
@@ -248,7 +247,7 @@ function App() {
                   <div className='project pt-3'>
                     <strong>API de lista de blogs, o usuário pode publicar novos blogs e ver o autor, título, curtidas e url de outros blogs</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
                     <br />
                     <small>Nota: O back-end está finalizado, estou trabalhando na linha de frente</small>
                   </div>
@@ -258,13 +257,13 @@ function App() {
                   <div className='project'>
                     <strong>Alguns projetos finalizados</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
                     <br />
                     <small>Nota: Todos os projetos foram implantados na Internet. O link de acesso pode ser encontrado no README.md</small>
                   </div>
                   <div className=' pt-4 pb-4'>
                     <h4><strong>Projetos Bootstrap</strong></h4>
-                    <a href='https://github.com/Gefferson-Souza/BootStrap-projects'>https://github.com/Gefferson-Souza/BootStrap-projects</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/BootStrap-projects'>https://github.com/Gefferson-Souza/BootStrap-projects</a>
                     <br />
                     <small>Nota: Todos os projetos foram implantados na Internet. O link de acesso pode ser encontrado no README.md</small>
                   </div>
@@ -307,35 +306,35 @@ function App() {
                   <div className='edu-exp pt-4'>
                     <h5>University of Helsinki</h5><h6>Jan 2023 - In Progress</h6>
                   </div>
-                  <a href='https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/529f6c3b03c2728311f0f5a5260adda4'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/529f6c3b03c2728311f0f5a5260adda4'>
                     <strong>Course: </strong>
                     <span>Full Stack Web Development (5 cr, CSM141081)</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Finished Dec 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/0c1833adba55c6bf231f6181c6b93f06'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/0c1833adba55c6bf231f6181c6b93f06'>
                     <strong>Course: </strong>
                     <span>Programming Foundations with JavaScript, HTML and CSS</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Finished Dec 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/76183885ec9fd727b9d69bbc73a70304'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/76183885ec9fd727b9d69bbc73a70304'>
                     <strong>Course: </strong>
                     <span>Java Programming: Arrays, Lists, and Structured Data</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Finished Dec 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/927e1f1c8ff6d456711726dbda56f26d'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/927e1f1c8ff6d456711726dbda56f26d'>
                     <strong>Course: </strong>
                     <span>Java Programming: Solving Problems with Software</span>
                   </a>
                   <div className='edu-exp pt-4'>
                     <h5>Duke University</h5><h6>Finished Dec 2022</h6>
                   </div>
-                  <a href='https://coursera.org/share/43ce41c4b9d15e660aacff13fc4d2eca'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://coursera.org/share/43ce41c4b9d15e660aacff13fc4d2eca'>
                     <strong>Course: </strong>
                     <span>Java Programming: Principles of Software Design</span>
                   </a>
@@ -349,14 +348,14 @@ function App() {
                   <div className='project'>
                     <strong>Countries information and their current weather</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
                     <br />
                     <small>Note: The project was deployed on the Internet. Access link can be found at README.md</small>
                   </div>
                   <div className='project pt-3'>
                     <strong>Notes app, CRUD, API REST. The user can Create, Edit, Delete, Read the Notes</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
                     <br />
                     <small>Note: The project was deployed on the Internet. Access link can be found at README.md</small>
                     <br />
@@ -365,7 +364,7 @@ function App() {
                   <div className='project pt-3'>
                     <strong>Blog list API, the user can publish new Blogs and see other blogs author, title, likes and url </strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
                     <br />
                     <small>Note: The back-end is finished, i'm working in the front-end</small>
                   </div>
@@ -375,13 +374,13 @@ function App() {
                   <div className='project'>
                     <strong>Some finished projects</strong>
                     <br />
-                    <a href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
                     <br />
                     <small>Note: All projects were deployed on the Internet. Access link can be found on README.md</small>
                   </div>
                   <div className=' pt-4 pb-4'>
                     <h4><strong>Bootstrap projects</strong></h4>
-                    <a href='https://github.com/Gefferson-Souza/BootStrap-projects'>https://github.com/Gefferson-Souza/BootStrap-projects</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/BootStrap-projects'>https://github.com/Gefferson-Souza/BootStrap-projects</a>
                     <br />
                     <small>Note: All projects were deployed on the Internet. Access link can be found on README.md</small>
                   </div>
