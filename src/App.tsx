@@ -74,7 +74,7 @@ function App() {
                       <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={whatsapp} /><a target="_blank" rel="noopener noreferrer" href='https://wa.me/5562994357455'>WhatsApp</a></p>
                       <hr />
                     </div>
-                    <div className='bolder'>
+                    <div className='bolder container'>
                       <h6 className='title '>HABILIDADES</h6>
                       <p className='px-2 descricao'><img alt='icon' className='icons' src={javascript} /> JavaScript</p>
                       <p className='px-2 descricao'><img alt='icon' className='icons' src={typescript} /> TypeScript</p>
