@@ -28,8 +28,6 @@
 
 .bolder {
   font-weight: bolder;
-  display: grid;
-  grid-template-columns: repeat(1fr, 3);
 }
 
 .my-name {
