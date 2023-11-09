@@ -183,7 +183,7 @@ function App() {
                     Como um Desenvolvedor Full Stack, estou determinado a conquistar uma posição desafiadora onde eu possa aplicar minha expertise em desenvolvimento de software e ampliar meu conjunto de habilidades.
                   </p>
                   <p>
-                    Sou apaixonado por tenologia e minha paixão reside na criação de interfaces de usuário altamente intuitivas e no desenvolvimento de APIs de alto desempenho.
+                    Sou apaixonado por tecnologia e minha paixão reside na criação de interfaces de usuário altamente intuitivas e no desenvolvimento de APIs de alto desempenho.
                   </p>
                   <p>
                     Estou ansioso para enfrentar novos desafios que me permitam utilizar meu conhecimento na criação de aplicações web.
