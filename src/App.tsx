@@ -64,7 +64,7 @@ function App() {
                   <div className='contact background'>
                     <div className=''>
                       <h6 className='title'>CONTATO</h6>
-                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={house} />Goiânia, Goiás, Brazil</p>
+                      <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={house} />Goiânia, Goiás, Brasil</p>
                       <p className='px-2 descricao'><img alt='icon' className='no-svg-icons' src={tel} /><a href='tel:5562994357455'>55(62)9 9435-7455</a></p>
                       <p className='px-2 descricao' ><img alt='icon' className='no-svg-icons' src={email} />geffersonteodorodesouza@gmail.com</p>
                       <hr />
@@ -175,7 +175,7 @@ function App() {
         {
           buttonValue === 1 ?
             <Col sm={6} className='background-light'>
-              <div className='information'>
+              <div className='information pb-2'>
                 <div className='about-me pt-2'>
                   <h4 className='bolder'><img src={personal} className='icons' alt="icon" /> Objetivo Profissional</h4>
                   <hr />
@@ -199,9 +199,9 @@ function App() {
                     <h4><strong>Experiência</strong></h4>
                   </div>
                   <div className='project'>
-                    <strong>Landing page --- Free Lancer</strong>
+                    <strong>Free Lancer --- Landing page</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/emestone-teste</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>Link do projeto: EMESTONE</a>
                     <br />
                     <small>Durante meu tempo com à EMESTONE, liderei o desenvolvimento de interfaces de usuário para uma
                       aplicação web. Trabalhei em estreita colaboração com as equipes de design para transformar
@@ -217,14 +217,14 @@ function App() {
                   <div className='project'>
                     <strong>Informações sobre os países e seu clima atual</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>https://github.com/Gefferson-Souza/Gefferson-Portifolio</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>Link do projeto: Countries Info</a>
                     <br />
                     <small>Nota: O projeto foi implantado na Internet. O link de acesso pode ser encontrado no README.md</small>
                   </div>
                   <div className='project pt-3'>
                     <strong>Aplicativo de notas, CRUD, API REST. O usuário pode Criar, Editar, Excluir, Ler as Notas</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>https://github.com/Gefferson-Souza/Render-Teste/tree/master</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Render-Teste/tree/master'>Link do projeto: Notes App Crud</a>
                     <br />
                     <small>Nota: O projeto foi implantado na Internet. O link de acesso pode ser encontrado no README.md</small>
                     <br />
@@ -232,15 +232,14 @@ function App() {
                   <div className='project pt-3'>
                     <strong>API de lista de blogs, o usuário pode publicar novos blogs e ver o autor, título, curtidas e url de outros blogs</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/project-blogs-list'>https://github.com/Gefferson-Souza/project-blogs-list</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/project-blogs-list'>Link do projeto: Lista de Blogs</a>
                     <br />
                   </div>
-                  <div className='edu-exp pt-4'>
+                  <div className='edu-exp pt-3'>
                     <h4><strong>Projetos React</strong></h4>
                   </div>
                   <div className='project'>
-                    <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/projetos-react'>https://github.com/Gefferson-Souza/projetos-react</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/projetos-react'>Link dos projetos: Projetos React</a>
                     <br />
                     <small>Nota: Todos os projetos foram implantados na Internet. O link de acesso pode ser encontrado no README.md</small>
                   </div>
@@ -259,6 +258,7 @@ function App() {
                   <a target="_blank" rel="noopener noreferrer" href='https://web.dio.me/users/geffersonteodorodesouza/?tab=achievements&page=1'>
                     <strong>Cursos: </strong>
                     <span>Formação Angular Developer</span>
+                    <br/>
                     <span>Formação TypeScript Fullstack Developer</span>
                   </a>
                   <div className='edu-exp pt-4'>
