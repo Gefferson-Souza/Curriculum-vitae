@@ -77,19 +77,20 @@ function App() {
                     <div className='bolder'>
                       <h6 className='title '>HABILIDADES</h6>
                       <Container fluid='sm'>
-                        <Col><p className='px-2 descricao'><img alt='icon' className='icons' src={javascript} /> JavaScript</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={typescript} /> TypeScript</p>
-                          <p className='px-2 descricao' ><img alt='icon' className='icons' src={node} /> Node</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={mongo} /> MongoDB</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={html} /> HTML / CSS <img alt='icon' className='icons' src={css} /></p>
-                        </Col>
-                        <Col><p className='px-2 descricao'><img alt='icon' className='icons' src={react} /> React</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={jest} /> Jest tester</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={bootstrap} /> Bootstrap</p>
-                          <p className='px-2 descricao'><img alt='icon' className='icons' src={java} /> Java</p>
-                        </Col>
-
-
+                        <Row>
+                          <Col>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={javascript} /> JavaScript</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={typescript} /> TypeScript</p>
+                            <p className='px-2 descricao' ><img alt='icon' className='icons' src={node} /> Node</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={mongo} /> MongoDB</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={html} /> HTML / CSS <img alt='icon' className='icons' src={css} /></p>
+                          </Col>
+                          <Col><p className='px-2 descricao'><img alt='icon' className='icons' src={react} /> React</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={jest} /> Jest tester</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={bootstrap} /> Bootstrap</p>
+                            <p className='px-2 descricao'><img alt='icon' className='icons' src={java} /> Java</p>
+                          </Col>
+                        </Row>
                       </Container>
                       <hr />
                     </div>
