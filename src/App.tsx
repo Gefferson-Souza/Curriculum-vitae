@@ -201,7 +201,9 @@ function App() {
                   <div className='project'>
                     <strong>Free Lancer --- Landing page</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>Link do projeto: EMESTONE</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/emestone-teste'>Link do projeto: EMESTONE</a>
+                    <br />
+                    <a target="_blank" rel="noopener noreferrer" href='https://emestone.com.br'>Link do website: EMESTONE</a>
                     <br />
                     <small>Durante meu tempo com à EMESTONE, liderei o desenvolvimento de interfaces de usuário para uma
                       aplicação web. Trabalhei em estreita colaboração com as equipes de design para transformar
@@ -325,7 +327,9 @@ function App() {
                   <div className='edu-exp pt-2'> <h4><strong>Experience</strong></h4> </div>
                   <div className='project'> <strong>Landing page --- Free Lancer</strong>
                     <br />
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/Gefferson-Portifolio'>Link: EMESTONE</a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/Gefferson-Souza/emestone-teste'>Link: EMESTONE</a>
+                    <br />
+                    <a target="_blank" rel="noopener noreferrer" href='https://emestone.com.br'>Link Website: EMESTONE</a>
                     <br />
                     <small>During my time with EMESTONE, I led the development of user interfaces for a web application. I worked closely with design teams to transform design projects into effective and attractive front-end code. Implemented responsive development practices to ensure a richly detailed user experience for desktop and mobile devices. Additionally, I optimized page performance, reducing load and loading speed. Performed testing and debugging of front-end code to ensure quality and functionality. I also implemented good SEO and accessibility practices.</small>
                   </div>
